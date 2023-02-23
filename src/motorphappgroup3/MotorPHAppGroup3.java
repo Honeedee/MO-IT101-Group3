@@ -26,6 +26,10 @@ public class MotorPHAppGroup3 {
         System.out.println("=============================================");
         
         System.out.println("Please Log in");
+        
+        int totalAttempts = 3;
+
+            while (totalAttempts != 0) {
                       
         String userName = "Admin";
         String passWord = "123456";
@@ -39,13 +43,21 @@ public class MotorPHAppGroup3 {
         if ("Admin".equals(userName) && "123456".equals(passWord)){
             System.out.println("\n");
             System.out.println("Successfully Logged In!");
-            Homepage();                  
-        }else{
-            System.out.println("Wrong Password or UserName  \n ThaNK YOU!!!\n");
-            System.exit(0);
+            Homepage();
+
+        } else {
+
+            System.out.println("Incorrect Login");
+            totalAttempts--;
+            System.out.println(totalAttempts);
+        }
     }
-  }
-     
+        if (totalAttempts == 0) {
+
+        System.out.println("Maximum number of attempts exceeded! Thank You!");
+    }
+}
+            
    public static void Homepage() 
            throws FileNotFoundException {
           
