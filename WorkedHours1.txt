@@ -1,0 +1,5 @@
+10001 Crisostomo Jose 8.0 8.0 8.0 8.0 8.0
+10002 Mata Christian 8.0 8.0 8.0 8.0 8.0
+10003 SanJose Brad 8.0 5.5 8.0 8.0 8.0
+10004 Salcedo Anthony 8.0 8.0 8.0 8.0 8.0
+10005 Romualdez Alice 8.0 8.0 8.0 8.0 8.0

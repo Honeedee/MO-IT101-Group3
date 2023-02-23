@@ -1,0 +1,25 @@
+Employee No : 10001
+Name : CrisostomoJose
+Worked Hours :  8.00  8.00  8.00  8.00  8.00 
+TotalWorkedHours: 40.00 
+
+Employee No : 10002
+Name : MataChristian
+Worked Hours :  8.00  8.00  8.00  8.00  8.00 
+TotalWorkedHours: 40.00 
+
+Employee No : 10003
+Name : SanJoseBrad
+Worked Hours :  8.00  5.50  8.00  8.00  8.00 
+TotalWorkedHours: 37.50 
+
+Employee No : 10004
+Name : SalcedoAnthony
+Worked Hours :  8.00  8.00  8.00  8.00  8.00 
+TotalWorkedHours: 40.00 
+
+Employee No : 10005
+Name : RomualdezAlice
+Worked Hours :  8.00  8.00  8.00  8.00  8.00 
+TotalWorkedHours: 40.00 
+
