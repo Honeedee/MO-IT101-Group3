@@ -57,7 +57,9 @@ public class MotorPHAppGroup3 {
         System.out.println("Maximum number of attempts exceeded! Thank You!");
     }
 }
-            
+    
+     
+     
    public static void Homepage() 
            throws FileNotFoundException {
           
@@ -215,9 +217,10 @@ public class MotorPHAppGroup3 {
             System.out.println("========================");
             System.out.println("Select Options!");   
             System.out.println("========================");
-       do {  
-            System.out.println("1. Return to Homepage");
-            System.out.println("2. Exit");
+       do { 
+            System.out.println("1. Search Another Employee");
+            System.out.println("2. Return to Homepage");
+            System.out.println("3. Exit");
             System.out.println("========================\n");
             System.out.println("You Selected: ");
             exit_selection = scr.nextInt(); 
@@ -226,17 +229,22 @@ public class MotorPHAppGroup3 {
         switch (exit_selection)
         {
             case 1 -> {
+                System.out.println("Search another Employee");
+                Employees();
+                }
+           
+            case 2 -> {
                 System.out.println("You Selected: Homepage");
                 Homepage();
                 }
 
-            case 2 -> {
+            case 3 -> {
                 System.out.println("You Selected Exit, GoodBye! ");
                 System.exit(0);
                 }
-        }
-            }while(exit_selection != 2);
-        }
+            }
+        }while(exit_selection != 3);
+    }
 
   
    
@@ -474,12 +482,15 @@ public class MotorPHAppGroup3 {
 //TO RETURN OR EXIT
        int exit_selection;
        
-           
+            
+            System.out.println("\n");
+            System.out.println("========================");
             System.out.println("Select Options!");   
             System.out.println("========================");
-       do {  
-            System.out.println("1. Return to Homepage");
-            System.out.println("2. Exit");
+       do { 
+            System.out.println("1. Search Another Employee");
+            System.out.println("2. Return to Homepage");
+            System.out.println("3. Exit");
             System.out.println("========================\n");
             System.out.println("You Selected: ");
             exit_selection = scr.nextInt(); 
@@ -488,16 +499,21 @@ public class MotorPHAppGroup3 {
         switch (exit_selection)
         {
             case 1 -> {
+                System.out.println("Search another Employee");
+                Payroll();
+                }
+           
+            case 2 -> {
                 System.out.println("You Selected: Homepage");
                 Homepage();
                 }
 
-            case 2 -> {
+            case 3 -> {
                 System.out.println("You Selected Exit, GoodBye! ");
                 System.exit(0);
                 }
-        }
-         }while(exit_selection != 2);
-       }
-       }
+            }
+        }while(exit_selection != 3);
+    }
+}
        
